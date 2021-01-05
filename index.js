@@ -1,4 +1,4 @@
-CURRENT_OPTIONS = {
+const CURRENT_OPTIONS = {
   icon: 'none',
   duration: 2000,
   mask: true,
@@ -18,7 +18,7 @@ const Toast = (toastOptions) => {
   }
   const params = { title: message };
   if (icon === 'loading') {
-    Object.assign(params, CURRENT_OPTIONS, { duration: 60000 });
+    Object.assign(params, CURRENT_OPTIONS, { duration: 3600000 });
   } else {
     Object.assign(params, CURRENT_OPTIONS);
   }
