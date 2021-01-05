@@ -1,0 +1,33 @@
+{
+  "name": "medusa-wx-toast",
+  "version": "1.0.0",
+  "description": "微信小程序统一Toast功能函数",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oc-master/medusa-wx-toast.git"
+  },
+  "keywords": [
+    "wx",
+    "miniprogram",
+    "toast"
+  ],
+  "author": "O_c",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oc-master/medusa-wx-toast/issues"
+  },
+  "homepage": "https://github.com/Oc-master/medusa-wx-toast#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
