@@ -33,8 +33,11 @@ const createMethod = (type) => (toastOptions) => {
 
 const clear = () => wx.hideToast();
 
+const setDefaultOptions = (options) => Object.assign(CURRENT_OPTIONS, options);
+
 Toast.loading = createMethod('loading');
 Toast.success = createMethod('success');
 Toast.clear = clear;
+Toast.setDefaultOptions = setDefaultOptions;
 
 module.exports = Toast;
